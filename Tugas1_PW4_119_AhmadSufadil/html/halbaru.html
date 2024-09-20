@@ -4,58 +4,114 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>fufufafawasweswos</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Plus Jakarta Sans", Arial, Helvetica, sans-serif;
+      }
+
+      h1 {
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+      }
+
+      .image {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+
+      .main {
+        margin: 25px;
+        padding: 10px;
+      }
+
+      .main p,
+      .main .formulir,
+      a {
+        padding: 15px;
+        text-align: justify;
+      }
+
+      button {
+        width: 25%;
+        height: 30px;
+        background-color: #1f4096;
+        /* border: none; */
+        cursor: pointer;
+      }
+
+      button:hover {
+        /* color: white; */
+        background-color: #6b84c5;
+      }
+    </style>
   </head>
   <body>
     <!-- h1 digunakan untuk membuat heading 2 (ukuran terbesar) -->
     <h1>Bukti Akun Fufufafa Makin Kuat, Sebaiknya Gibran Cepat Minta Maaf</h1>
 
     <!-- img digunakan untuk menampilkan gambar yang didapatkan dari atribut src -->
-    <img
-      src="../img/gibran-meme(2).jpeg"
-      alt="credit by @nisaturated on twitter"
-    />
+    <div class="image">
+      <img
+        src="../img/gibran-meme(2).jpeg"
+        alt="credit by @nisaturated on twitter"
+      />
+    </div>
 
     <!-- h2 digunakan untuk membuat heading 2 (ukuran terbesar no 2) -->
-    <h2>Siapa orang dibalik akun fufufafa ?</h2>
+    <div class="main">
+      <h2>Siapa orang dibalik akun fufufafa ?</h2>
 
-    <!-- p digunakan untuk membuat paragraf -->
-    <p>
-      Fufufafa dicurigai adalah nama akun Kaskus milik putra pertama Presiden
-      Joko Widodo, Gibran Rakabuming Raka. Terbaru, pegiat media sosial Jhon
-      Sitorus membagikan petunjuk baru yang membuat dugaan akun Fufufafa adalah
-      milik Gibran semakin kuat. "Ada yang mencoba login pake nomor Gibran,
-      ternyata nomor tersebut memang tertaut ke email chilipari@gmail.com,"
-      tulis Jhon di akun X, Sabtu (14/9). Dikatakan John, alamat email itu
-      ternyata memang pernah diumumkan di akun Instagram chilipari. "Semakin
-      diklarifikasi, malah semakin membuka petunjuk baru bagi netizen untuk
-      lebih kreatif dengan cara-caranya," tuturnya. John pun menyarankan Gibran
-      untuk jujur dan meminta maaf atas kegaduhan akun Fufufafa tersebut.
-      Setidaknya, dia bisa segera memperbaiki hubungan dengan Presiden Terpilih
-      Prabowo Subianto.
-    </p>
-    <p>
-      "Lebih baik Gibran meminta maaf saja agar rekonsiliasi segera bisa
-      dilakukan. Ini menyangkut nama baik Jokowi dan kenyamanan Prabowo dan
-      kabinet dalam bekerja untuk negara," tuturnya. "Kasihan juga Pak Jokowi
-      makin banyak yang menjauhi menjelang beliau lengser. Semangat Mas Gibran,
-      Pak Prabowo baik kok," tandasnya.
-    </p>
+      <!-- p digunakan untuk membuat paragraf -->
+      <p>
+        Fufufafa dicurigai adalah nama akun Kaskus milik putra pertama Presiden
+        Joko Widodo, Gibran Rakabuming Raka. Terbaru, pegiat media sosial Jhon
+        Sitorus membagikan petunjuk baru yang membuat dugaan akun Fufufafa
+        adalah milik Gibran semakin kuat. "Ada yang mencoba login pake nomor
+        Gibran, ternyata nomor tersebut memang tertaut ke email
+        chilipari@gmail.com," tulis Jhon di akun X, Sabtu (14/9). Dikatakan
+        John, alamat email itu ternyata memang pernah diumumkan di akun
+        Instagram chilipari. "Semakin diklarifikasi, malah semakin membuka
+        petunjuk baru bagi netizen untuk lebih kreatif dengan cara-caranya,"
+        tuturnya. John pun menyarankan Gibran untuk jujur dan meminta maaf atas
+        kegaduhan akun Fufufafa tersebut. Setidaknya, dia bisa segera
+        memperbaiki hubungan dengan Presiden Terpilih Prabowo Subianto.
+      </p>
+      <p>
+        "Lebih baik Gibran meminta maaf saja agar rekonsiliasi segera bisa
+        dilakukan. Ini menyangkut nama baik Jokowi dan kenyamanan Prabowo dan
+        kabinet dalam bekerja untuk negara," tuturnya. "Kasihan juga Pak Jokowi
+        makin banyak yang menjauhi menjelang beliau lengser. Semangat Mas
+        Gibran, Pak Prabowo baik kok," tandasnya.
+      </p>
 
-    <!-- digunakan untuk membuat formulir -->
-    <form action="">
-      <!-- meulis teks -->
-      <textarea
-        name="gatau"
-        id="teksarea"
-        rows="10"
-        cols="100"
-        placeholder="isi disini untuk sumpah serapah fufufafa"
-      ></textarea>
+      <!-- digunakan untuk membuat formulir -->
+      <div class="formulir">
+        <form action="">
+          <!-- meulis teks -->
+          <textarea
+            name="gatau"
+            id="teksarea"
+            rows="7"
+            cols="100"
+            placeholder="isi disini untuk sumpah serapah fufufafa"
+          ></textarea>
+          <br />
 
-      <!-- sengaja di reset karna suara rakyat ga akan di dengar hehe -->
-      <button type="reset">tekan ini agar pesan sampai ke gibran</button>
-    </form>
+          <!-- sengaja di reset karna suara rakyat ga akan di dengar hehe -->
+          <button type="reset">Sampaikan Pesan</button>
+        </form>
+      </div>
 
-    <a href="../index.html">back</a>
+      <a href="../index.html">Kembali</a>
+    </div>
   </body>
 </html>
